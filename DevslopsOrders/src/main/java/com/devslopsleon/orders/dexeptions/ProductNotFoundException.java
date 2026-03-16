@@ -1,0 +1,7 @@
+package com.devslopsleon.orders.dexeptions;
+
+public class ProductNotFoundException extends RuntimeException {
+    public ProductNotFoundException(String message) {
+        super(message);
+    }
+}
